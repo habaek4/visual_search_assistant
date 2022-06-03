@@ -1,0 +1,6 @@
+# *.jpg
+# *.png
+data/
+output/
+__pycache__/
+test2.py
