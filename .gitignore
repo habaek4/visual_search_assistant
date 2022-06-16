@@ -2,3 +2,5 @@ data/
 dlib/
 outputs/
 *.mp4
+aligned_images_DB*
+.ipynb_checkpoints/
