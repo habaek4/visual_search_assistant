@@ -1,0 +1,3 @@
+[submodule "CelebA-HQ-Face-Identity-and-Attributes-Recognition-PyTorch"]
+	path = CelebA-HQ-Face-Identity-and-Attributes-Recognition-PyTorch
+	url = https://github.com/ndb796/CelebA-HQ-Face-Identity-and-Attributes-Recognition-PyTorch.git
