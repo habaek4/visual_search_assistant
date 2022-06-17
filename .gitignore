@@ -4,3 +4,6 @@ outputs/
 *.mp4
 aligned_images_DB*
 .ipynb_checkpoints/
+youtube_split*
+demo*
+cuda_*

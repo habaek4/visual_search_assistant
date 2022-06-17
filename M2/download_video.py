@@ -15,7 +15,8 @@ def clip_video(video_pth,output_pth,time):
         name = video_pth.split('/')[-1].split('.')[0]
         new_name = name + '_%d_%d'%(start,end)
         output_pth = video_pth.replace(name,new_name)
-
+        
+    #import pdb; pdb.set_trace()
     clip.write_videofile(output_pth)
 
 if __name__=="__main__":
