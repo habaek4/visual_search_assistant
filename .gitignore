@@ -5,5 +5,9 @@ outputs/
 aligned_images_DB*
 .ipynb_checkpoints/
 youtube_split*
-demo*
+demo_library/
+demo_video/
 cuda_*
+*.pth
+trash/
+M2/img/
