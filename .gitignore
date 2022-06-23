@@ -11,3 +11,4 @@ cuda_*
 *.pth
 trash/
 M2/img/
+*.mp3

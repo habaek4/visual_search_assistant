@@ -7,8 +7,10 @@ def download_video(link,output_path):
     video_stream = yt.streams.filter(file_extension="mp4",only_audio=False).first()
     video_stream.download(output_path=output_path)
     print('Download complete for %s' % video_stream.title)
+    return video_stream.title
 
 def clip_video(video_pth,output_pth,time):
+    # import pdb;pdb.set_trace()
     start,end=time
     clip = VideoFileClip(video_pth).subclip(start,end)
     if output_pth is None:
