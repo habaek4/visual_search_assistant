@@ -11,8 +11,9 @@ cuda_*
 *.pth
 trash/
 M2/img/
-
 *.mp3
 .ipynb_checkpoints/
 *.pickle
 *png
+M3/library/
+__pycache__/
